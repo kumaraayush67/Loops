@@ -1,0 +1,56 @@
+body {
+	background-color: #f1f1f1;
+	height: 100vh;
+}
+.form-main {
+	margin-top: 1rem;
+}
+.form-main input {
+	padding: 0.5rem;
+	border: 1px solid #323232;
+	margin: 0.5rem 0;
+	background-color: #f8f8f8;
+	font: 1rem 'Helvetica', sans-serif;
+}
+
+.form-main input:hover {
+	border-color: green;
+	background-color: #ffffff;
+}
+
+.form-main input:focus {
+	background-color: #B9F6CA;
+	outline: none;
+}
+
+.form-main button {
+	transition: all .2s;
+}
+
+.form-main button:hover {
+	box-shadow: 0 2px 2px #aaaaaa;
+	transform: translateY(-2px);
+}
+
+.form-main select {
+	padding: 0.5rem;
+	border: 1px solid #323232;
+}
+
+.brand {
+	/*float: left;*/
+	font: 4rem 'Satisfy', sans-serif;
+}
+
+.brand:hover {
+	text-decoration: none;
+}
+.loops{
+	font: 1.5rem 'Satisfy', sans-serif;
+}
+#f{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 550px;
+}
